@@ -4,5 +4,8 @@ dotenv.config();
 module.exports = {
     PORT : process.env.PORT,
     EMAIL_ID : process.env.EMAIL_ID,
-    EMAIL_PWD : process.env.EMAIL_PWD
+    EMAIL_PWD : process.env.EMAIL_PWD,
+    MESSAGE_BROKER_URL: process.env.MESSAGE_BROKER_URL,
+    EXCHANGE_NAME: process.env.EXCHANGE_NAME,
+    REMINDER_BINDING_KEY: process.env.REMINDER_BINDING_KEY
 }
